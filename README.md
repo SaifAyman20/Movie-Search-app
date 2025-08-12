@@ -42,15 +42,15 @@ cd Movie-Search-app
 npm install
 npm run dev  # or npm start
 ```
-Usage
-Type a movie name in the search bar.
-Select a movie to view its details.
-Add or remove it from the favorites list.
+## Usage
+- Type a movie name in the search bar.  
+- Select a movie to view its details.  
+- Add or remove it from the favorites list.
 
-Pages Overview
-Home Page: Search bar + list of search results.
-Movie Details Page: Display plot, genre, cast, rating, etc.
-Favorites Page: View and manage your favorite movies.
+## Pages Overview
+- **Home Page:** Search bar + list of search results.  
+- **Movie Details Page:** Display plot, genre, cast, rating, etc.  
+- **Favorites Page:** View and manage your favorite movies.
 
-Responsive Design
+## Responsive Design
 The app is fully responsive and adapts smoothly to different screen sizes — from mobile phones to tablets and desktops.
