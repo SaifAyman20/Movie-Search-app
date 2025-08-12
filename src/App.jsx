@@ -6,8 +6,8 @@ import './styles/global-styles.css';
 
 const App = () => {
   return (
-    <Router>
-      <Routes basename="/movie-search-app">
+    <Router basename="/movie-search-app">
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movie/:id" element={<MovieDetails />} />
         <Route path="*" element={<NotFound />} />
