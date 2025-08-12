@@ -1,28 +1,46 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
 # Movie Search App
 
-A React application for searching movies using the OMDb API.
+A React-based web application that allows users to search for movies, view detailed information, and manage a personal favorites list. The application uses the [OMDb API](https://www.omdbapi.com/) to fetch movie data.
+
+---
+
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Pages Overview](#pages-overview)
+- [Responsive Design](#responsive-design)
+- [Folder Structure](#folder-structure)
+- [Future Improvements](#future-improvements)
+- [License](#license)
+
+---
 
 ## Features
-- Search for movies
-- View movie details
-- Add/remove favorites
-- Responsive design
 
-## Setup
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Create `.env` file and add your OMDb API key:
+- **Search Movies**: Type a movie title into the search bar to find matching movies from the OMDb database.
+- **Movie Details**: Click on a movie card to open a dedicated details page with more information such as plot, genre, year, actors, and ratings.
+- **Favorites Management**:
+  - Add movies to a favorites list for quick access later.
+  - Remove movies from the favorites list with one click.
+- **Responsive Design**: Works seamlessly across mobile, tablet, and desktop devices.
+
+---
+
+## Technologies Used
+
+- **Frontend**: React.js
+- **Styling**: CSS3 with responsive design principles
+- **API**: OMDb API
+- **Routing**: React Router
+- **State Management**: React Hooks (useState, useEffect)
+- **Build Tool**: Create React App
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SaifAyman20/Movie-Search-app.git
